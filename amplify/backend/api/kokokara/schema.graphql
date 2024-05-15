@@ -1,0 +1,9 @@
+type Location @model @auth(rules: [{allow: private}, {allow: owner}]) {
+  id: ID!
+  lat: String
+  lng: String
+  address: String
+  notes: String
+  type: String! @index(name: "locationsByDate", queryField: "locationsByDate", sortKeyFields: ["createdAt"])
+  createdAt: String!
+}

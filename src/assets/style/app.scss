@@ -1,0 +1,52 @@
+$electric-blue: #4897D8;
+$banana: #FFDB5C;
+$watermelon: #FA6E59;
+$watermelonHoverDark: rgb(218, 94, 75);
+$watermelonHoverLight: #fa6e591f;
+$canteloupe: #F8A055;
+
+.electric-blue {
+  color: $electric-blue;
+  &-bg {
+    color: white;
+    background-color: $electric-blue;
+  }
+}
+
+.banana {
+  color: $banana;
+  &-bg {
+    // color: white;
+    background-color: $banana;
+  }
+}
+
+.watermelon {
+  color: $watermelon;
+  &-bg {
+    color: white !important;
+    background-color: $watermelon !important;
+  }
+}
+
+.canteloupe {
+  color: $canteloupe;
+  &-bg {
+    color: white;
+    background-color: $canteloupe;
+  }
+}
+.amplify-button {
+  &[data-variation='primary'] {
+    background: $watermelon;
+    &:hover, &:active, &:focus {
+      background: $watermelonHoverDark;
+    }
+  }
+  &[data-variation='link'] {
+    color: $watermelon;
+    &:hover {
+      background: $watermelonHoverLight;
+    }
+  }
+}

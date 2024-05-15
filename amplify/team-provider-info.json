@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kokokara-dev-220441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::893477300372:role/amplify-kokokara-dev-220441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::893477300372:role/amplify-kokokara-dev-220441-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-kokokara-dev-220441-deployment",
+      "UnauthRoleName": "amplify-kokokara-dev-220441-unauthRole",
+      "StackName": "amplify-kokokara-dev-220441",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:893477300372:stack/amplify-kokokara-dev-220441/f1e48160-4cb5-11ee-91ec-067eb25769dd",
+      "AmplifyAppId": "d2wad3cid7wsp3"
+    },
+    "categories": {
+      "auth": {
+        "kokokara": {}
+      },
+      "api": {
+        "kokokara": {}
+      }
+    }
+  }
+}
